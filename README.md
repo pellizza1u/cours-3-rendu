@@ -17,12 +17,41 @@ Ce projet contient seulement 3 classes qui intéragissent entre elle :
 
 Il suffit de lancer l'installation des packages via composer :
 
-`composer insall`
+`composer install`
 
 ## Script
 
-- `composer test` : run les tests avec la configuration disponible dans le fichier `phpunit.xml`
-- `composer test:coverage` : run les tests et édite un rapport au format HTML dans le dossier `coverage`
+### Run test with [PHPUnit](https://phpunit.de/)
+
+```sh
+composer test
+```
+
+utilise la configuration disponible dans le fichier `phpunit.xml`
+
+### Run test and coverage
+
+```sh
+composer test:coverage
+```
+
+édite un rapport au format HTML dans le dossier `coverage`
+
+### Linter
+
+```sh
+composer phpcs
+```
+
+```sh
+composer phpcs:fix
+```
+
+### PHPStan
+
+```sh
+composer phpstan
+```
 
 ## Structure du projet
 
