@@ -23,7 +23,7 @@ Vous pouvez utilisez Docker pour faire fonctionner ce projet
 docker compose up
 ```
 
-Il suffit de lancer l'installation des packages via composer :
+Sinon il suffit de lancer l'installation des packages via composer :
 
 ```sh
 composer install
