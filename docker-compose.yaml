@@ -5,5 +5,4 @@ services:
     volumes:
       - ./:/app
     working_dir: /app
-    tty: true # Use a TTY
-    stdin_open: true
+    tty: true # Use a TTY to prevent container from exiting
