@@ -15,11 +15,23 @@ Ce projet contient seulement 3 classes qui intéragissent entre elle :
 
 ## Installation
 
+### Docker
+
+Vous pouvez utilisez Docker pour faire fonctionner ce projet
+
+```sh
+docker compose up
+```
+
 Il suffit de lancer l'installation des packages via composer :
 
-`composer install`
+```sh
+composer install
+```
 
 ## Script
+
+Si vous utilisez Docker ces commandes sont à lancer depuis le container ou avec le prefix `docker compose exec php`
 
 ### Run test with [PHPUnit](https://phpunit.de/)
 
